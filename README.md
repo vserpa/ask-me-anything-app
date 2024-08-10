@@ -15,6 +15,11 @@ Needs the database running
 go generate ./...
 ```
 
+### Run Server
+```shell
+go run cmd/wsrs/main.go
+```
+
 ## Lib details
 
 ### Migrations
