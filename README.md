@@ -35,7 +35,9 @@ go run cmd/tools/terndotenv/main.go
 ```
 
 ### SQLC
+SQLC generates go functions from SQL queries
 https://sqlc.dev/
+
 ```shell
 # install
 go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
