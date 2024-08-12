@@ -11,6 +11,7 @@ docker compose up
 ### Generate Migrations and SQL Code
 This app uses gen.go to generates migrates and code
 Needs the database running
+Install tern and sqlc (instructions bellow) before running
 ```shell
 go generate ./...
 ```
